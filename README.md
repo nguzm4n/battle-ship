@@ -1,4 +1,8 @@
 # BattleShip Game
-Use NPM INSTALL 
-Then NPM RUN DEV to play on LocalHost
+
+-Do a Git Clone https://github.com/nguzm4n/battle-ship.git
+<br>
+-Use NPM INSTALL 
+<br>
+-Then NPM RUN DEV to play on LocalHost
 
