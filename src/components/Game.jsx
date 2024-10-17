@@ -135,7 +135,16 @@ const Game = () => {
   return (
     <div>
       <div className='d-flex justify-content-center'>
-        <h1 className=' my-5'>Battleship</h1>
+        <h1 className=' '>Battleship</h1>
+      </div>
+      <div>
+        <h3 className='ms-5'> Instructions</h3>
+        <h6 className='ms-5 '>1- There are 5 Ships with 5, 4, 3, 3, 2 Squares length each. </h6>
+        <h6 className='ms-5'>1- Click on the Computer Board to Hit a Ship. </h6>
+        <h6 className='ms-5'>1- Red Square means you Hit a ship. </h6>
+        <h6 className='ms-5'>1- Blue Square means you miss the hit. </h6>
+        <h6 className='ms-5 mb-2'>1- Sink all the Ships before the computer sinks yours. </h6>
+
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-around' }}>
         <div>

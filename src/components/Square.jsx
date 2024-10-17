@@ -1,6 +1,17 @@
 import React from 'react';
 
 const Square = ({ value, onClick }) => {
+  let backgroundColor;
+
+ 
+  if (value === 'X') {
+    backgroundColor = '#f92b2b'; 
+  } else if (value === 'O') {
+    backgroundColor = '#2b5df9'; 
+  } else {
+    backgroundColor = 'white'; 
+  }
+
   return (
     <div 
       className="square" 
@@ -10,13 +21,10 @@ const Square = ({ value, onClick }) => {
         height: '40px',
         border: '1px solid black',
         display: 'inline-block',
-        backgroundColor: value === 'X' ? 'red' : value === 'O' ? 'blue' : 'white',
-        textAlign: 'center',
-        lineHeight: '40px',
+        backgroundColor: backgroundColor, 
+        cursor: 'pointer',
       }}
-    >
-      {value}
-    </div>
+    />
   );
 };
 
